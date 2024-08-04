@@ -79,4 +79,30 @@ Proyecto_ALU/
 ## Simulaciones 
 
 
+En la figura N°1 se muestra la salida de una simulación de una parte sumadora de la ALU 
+
+El ejemplo implementado es 
+
+```vhd
+
+      -- Seleccionar operaciÃ³n de suma
+        ALU_Sel <= "00";
+
+        -- Prueba de suma: 3 + 4 = 7
+        A <= "0011"; B <= "0100"; wait for 10 ns;
+        assert (Result = "0111" and CarryOut = '0') report "Error: 3 + 4" severity error;
+
+        -- Prueba de suma: 8 + 7 = 15
+        A <= "1000"; B <= "0111"; wait for 10 ns;
+        assert (Result = "1111" and CarryOut = '0') report "Error: 8 + 7" severity error;
+
+        -- Prueba de suma con acarreo: 15 + 1 = 16
+        A <= "1111"; B <= "0001"; wait for 10 ns;
+        assert (Result = "0000" and CarryOut = '1') report "Error: 15 + 1" severity error;
+
+        -- Prueba de suma: 0 + 0 = 0
+        A <= "0000"; B <= "0000"; wait for 10 ns;
+        assert (Result = "0000" and CarryOut = '0') report "Error: 0 + 0" severity error;
+```
+
 ![Simulacion](./doc/img/simulacion_suma.png)
