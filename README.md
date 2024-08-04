@@ -108,11 +108,27 @@ El ejemplo implementado es
 ![Simulacion](./doc/img/simulacion_suma.png)
 *Fig 1: Vista ModelSim de la simulación ALU* 
 
+## Análisis RTL del Código Fuente 
+
+En vivado dentro de RTL ANALYSIS, Se generaron los esquemáticos de proyecto ALU sumador como se muestran en las figuras 2, 3 y 4. En la última figura se puede ver la vista lógica del sumador.
+
 ![diagramaALU](./doc/img/Dia_ALU_SUM.png)
 *Fig 2: Vista general diagrama ALU sumador en Vivado* 
 
 ![diagramaALUSUM](./doc/img/sumador.png)
 *Fig 3: Vista sumador de  diagrama ALU en Vivado* 
 
-![diagramaALUSUM](./doc/img/vista_logica_sumador.png)
+![diagramaALUSUM2](./doc/img/vista_logica_sumador.png)
 *Fig 4: Vista lógica sumador  ALU en Vivado* 
+
+
+## Síntesis 
+
+![diagramaALUSUM_sumario](./doc/img/sumario_proyecto.png)
+*Fig 5: Vista sumario del proyecto ALU en Vivado* 
+
+![diagramaALUSUM_recurso](./doc/img/utilizacion_recurso.png)
+*Fig 6: Vista tabla con los recursos empleados en el  proyecto ALU en Vivado* 
+
+![diagramaALUSUM_esquematico](./doc/img/Esquematica_ALU.png)
+*Fig 7: Vista esquemático general con los recursos empleados en el  proyecto ALU en Vivado* 
