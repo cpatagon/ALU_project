@@ -124,10 +124,10 @@ En vivado dentro de RTL ANALYSIS, Se generaron los esquemáticos de proyecto ALU
 
 ## Síntesis 
 
-![diagramaALUSUM_sumario](./doc/img/sumario_proyecto.png)
+![diagramaALUSUM_sumario](./doc/img/Sumario_proyecto.png)
 *Fig 5: Vista sumario del proyecto ALU en Vivado* 
 
-![diagramaALUSUM_recurso](./doc/img/utilizacion_recurso.png)
+![diagramaALUSUM_recurso](./doc/img/utilizacion_recursos.png)
 *Fig 6: Vista tabla con los recursos empleados en el  proyecto ALU en Vivado* 
 
 ![diagramaALUSUM_esquematico](./doc/img/Esquematica_ALU.png)
