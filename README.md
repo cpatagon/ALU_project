@@ -1,25 +1,43 @@
-# Proyecto ALU
+# Proyecto ALU (Unidad Aritmético-Lógica) en VHDL
 
-## Estructura de Archivos del Proyecto ALU
+## Descripción
 
+Este proyecto implementa una Unidad Aritmético-Lógica (ALU) en VHDL. Una ALU es un componente esencial en los procesadores modernos, responsable de realizar operaciones aritméticas y lógicas sobre los datos. Este diseño modular permite la simulación y prueba de diferentes operaciones mediante bancos de pruebas detallados.
 
-* Proyecto_ALU/: Directorio raíz del proyecto que contiene todas las subcarpetas y archivos relacionados.
+## Funcionalidades
 
-### Subdirectorios
+La ALU soporta las siguientes operaciones:
 
-- **src/:** Carpeta para los archivos fuente VHDL.
-* **components/:** Subcarpeta que contiene módulos individuales de la ALU, como sumador, restador, multiplicador, divisor, y multiplexor.
--  **top/:** Contiene la descripción de nivel superior del proyecto, como el archivo de la ALU completa (ALU.vhd).
-- **utils/:** Archivos de utilidades y paquetes comunes.
-- **testbench/:** Archivos de banco de pruebas para verificar el funcionamiento de cada módulo y del sistema completo.
-- **sim/:** Carpeta para los archivos de configuración de simulación.
-- **modelsim/:** Scripts de configuración para ModelSim.
-- **ghdl/:** (si usas GHDL, puedes tener archivos relacionados aquí).
+- **Suma:** Realiza la suma de dos operandos de 4 bits y produce un resultado de 4 bits junto con un bit de acarreo.
+- **Resta:** Realiza la resta entre dos operandos de 4 bits.
+- **Multiplicación:** Calcula el producto de dos operandos de 4 bits.
+- **División:** Realiza la división entre dos operandos de 4 bits y produce cociente y resto.
+- **Operaciones Lógicas:** Incluye operaciones como AND, OR, y XOR entre los operandos de 4 bits.
 
-- **doc/:** Documentación del proyecto, incluyendo especificaciones de diseño e informes de prueba.
+## Estructura del Proyecto
 
-- **work/:** Directorio de trabajo que ModelSim utiliza para almacenar bibliotecas compiladas.
+El proyecto está organizado en varias carpetas para facilitar la gestión de componentes, bancos de pruebas y documentación:
 
+- **src/**: Contiene los archivos fuente VHDL, organizados por componentes y módulos.
+- **testbench/**: Incluye bancos de pruebas para verificar la funcionalidad de cada componente y de la ALU en conjunto.
+- **sim/**: Archivos de simulación y scripts para ModelSim y GHDL.
+- **doc/**: Documentación del proyecto, incluyendo especificaciones de diseño e informes de prueba.
+
+## Requisitos
+
+Para compilar y simular este proyecto, se necesita:
+
+- ModelSim o GHDL para la simulación de archivos VHDL.
+- Git para la gestión de versiones.
+
+## Instrucciones de Uso
+
+1. **Clonar el repositorio:**
+
+   ```bash
+   git clone https://github.com/cpatagon/ALU_project.git
+```
+## Estructura de Archivos
 
 
 ```plaintext
