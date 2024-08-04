@@ -106,9 +106,13 @@ El ejemplo implementado es
 ```
 
 ![Simulacion](./doc/img/simulacion_suma.png)
+*Fig 1: Vista ModelSim de la simulación ALU* 
 
 ![diagramaALU](./doc/img/Dia_ALU_SUM.png)
+*Fig 2: Vista general diagrama ALU sumador en Vivado* 
 
 ![diagramaALUSUM](./doc/img/sumador.png)
+*Fig 3: Vista sumador de  diagrama ALU en Vivado* 
 
-![diagramaALUSUM](./doc/img/vista_logica.png)
+![diagramaALUSUM](./doc/img/vista_logica_sumador.png)
+*Fig 4: Vista lógica sumador  ALU en Vivado* 
