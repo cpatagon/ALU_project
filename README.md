@@ -110,3 +110,5 @@ El ejemplo implementado es
 ![diagramaALU](./doc/img/Dia_ALU_SUM.png)
 
 ![diagramaALUSUM](./doc/img/sumador.png)
+
+![diagramaALUSUM](./doc/img/vista_logica.png)
