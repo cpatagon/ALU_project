@@ -74,3 +74,9 @@ Proyecto_ALU/
 │ └── test_report.md
 └── work/
 ```
+
+
+## Simulaciones 
+
+
+![Simulacion](./doc/img/simulacion_suma.png)
