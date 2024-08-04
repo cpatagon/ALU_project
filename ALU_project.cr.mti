@@ -1,0 +1,27 @@
+/home/lgomez/Documentos/MAGISTER_UBA/Bimestre05/FPGA/Proyecto_FINAL/Proyecto_ALU/src/components/sumador/sum1b.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/lgomez/Documentos/MAGISTER_UBA/Bimestre05/FPGA/Proyecto_FINAL/Proyecto_ALU/src/components/sumador/sum1b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sum1b
+-- Compiling architecture sum1b_arq of sum1b
+
+} {} {}} /home/lgomez/Documentos/MAGISTER_UBA/Bimestre05/FPGA/Proyecto_FINAL/Proyecto_ALU/src/components/sumador/sumNb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/lgomez/Documentos/MAGISTER_UBA/Bimestre05/FPGA/Proyecto_FINAL/Proyecto_ALU/src/components/sumador/sumNb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sumNb
+-- Compiling architecture sumNb_arq of sumNb
+-- Loading entity sum1b
+
+} {} {}} /home/lgomez/Documentos/MAGISTER_UBA/Bimestre05/FPGA/Proyecto_FINAL/Proyecto_ALU/src/top/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/lgomez/Documentos/MAGISTER_UBA/Bimestre05/FPGA/Proyecto_FINAL/Proyecto_ALU/src/top/ALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU
+-- Compiling architecture Behavioral of ALU
+-- Loading entity sumNb
+
+} {} {}}

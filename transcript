@@ -1,0 +1,90 @@
+# Project file /home/lgomez/Documentos/MAGISTER_UBA/Bimestre05/FPGA/Proyecto_ALU/Projecto_ALU.mpf was not found.
+# Unable to open project.
+# Loading project ALU_project
+# Compile of ALU.vhd failed with 4 errors.
+# Compile of sum1b.vhd was successful.
+# Compile of sumNb.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+# 4 compiles, 1 failed with 4 errors.
+# Compile of ALU.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of sum1b.vhd was successful.
+# Compile of sumNb.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+# Load canceled
+# Load canceled
+# Compile of ALU.vhd was successful.
+# Compile of sum1b.vhd was successful.
+# Compile of sumNb.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+# Load canceled
+dataset reload -f
+# Dataset not found: 
+# Compile of ALU.vhd was successful.
+# Compile of sum1b.vhd was successful.
+# Compile of sumNb.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.alu_tb
+# vsim work.alu_tb 
+# Start time: 14:19:05 on Aug 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_tb(testbench)
+# Loading work.alu(behavioral)
+# Loading work.sumnb(sumnb_arq)
+# Loading work.sum1b(sum1b_arq)
+add wave -position end  sim:/alu_tb/A
+add wave -position end  sim:/alu_tb/B
+add wave -position end  sim:/alu_tb/ALU_Sel
+add wave -position end  sim:/alu_tb/Result
+add wave -position end  sim:/alu_tb/CarryOut
+# Load canceled
+run 100 ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+run
+run
+run
+run
+run
+run
+run -continue
+run -continue
+run -continue
+run -all
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
