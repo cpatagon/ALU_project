@@ -85,7 +85,7 @@ El ejemplo implementado es
 
 ```vhd
 
-      -- Seleccionar operaciÃ³n de suma
+      -- Seleccionar operación de suma
         ALU_Sel <= "00";
 
         -- Prueba de suma: 3 + 4 = 7
@@ -106,3 +106,7 @@ El ejemplo implementado es
 ```
 
 ![Simulacion](./doc/img/simulacion_suma.png)
+
+![diagramaALU](./doc/img/Dia_ALU_SUM.png)
+
+![diagramaALUSUM](./doc/img/sumador.png)
