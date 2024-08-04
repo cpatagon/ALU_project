@@ -35,7 +35,7 @@ Proyecto_ALU/
 	│   └── test_report.md
 	└── work/
 
-'''
+'''plaintext
 Proyecto_ALU/
 ├── src/
 │ ├── components/
