@@ -153,7 +153,17 @@ Esta se llevo a cabo a  través del Project Summary Outut y en la figura 8 se pu
 *Fig 10: Vista warning implementacion realizada del  proyecto ALU en Vivado* 
 
 
-## Sumario Reporte
+## Simulación en vivado
+
+Se cargo el archivo testbench de la ALU y se configuró el tiempo a 40 ns y se procedió a correr la simulación 
+La salida de la simulación se muestra en la figura 11
+
+![diagramaALUSUM_esquematico](./doc/img/salida_simulacion_vivado.png)
+*Fig 11: Salida simulación en Vivado del  proyecto ALU en Vivado* 
+
+
+
+## Sumario Reportech
 
 ```plaintext
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
