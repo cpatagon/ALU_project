@@ -122,7 +122,9 @@ En vivado dentro de RTL ANALYSIS, Se generaron los esquemáticos de proyecto ALU
 *Fig 4: Vista lógica sumador  ALU en Vivado* 
 
 
-## Síntesis 
+## Síntesis del sistema y Análsis resumen
+
+
 
 ![diagramaALUSUM_sumario](./doc/img/Sumario_proyecto.png)
 *Fig 5: Vista sumario del proyecto ALU en Vivado* 
@@ -132,3 +134,20 @@ En vivado dentro de RTL ANALYSIS, Se generaron los esquemáticos de proyecto ALU
 
 ![diagramaALUSUM_esquematico](./doc/img/Esquematica_ALU.png)
 *Fig 7: Vista esquemático general con los recursos empleados en el  proyecto ALU en Vivado* 
+
+
+## Implementación de Sistema
+
+Esta se llevo a cabo a  través del Project Summary Outut y en la figura 8 se puede ver el ruteo de la placa implementada con e código ALU
+
+![diagramaALUSUM_esquematico](./doc/img/ruteo_result.png)
+*Fig 8: Vista ruteo realizado del  proyecto ALU en Vivado* 
+
+
+
+![diagramaALUSUM_esquematico](./doc/img/sumario_implementacion.png)
+*Fig 9: Sumario implementación del  proyecto ALU en Vivado* 
+
+
+![diagramaALUSUM_esquematico](./doc/img/warning_implementacion.png)
+*Fig 10: Vista warning implementacion realizada del  proyecto ALU en Vivado* 
